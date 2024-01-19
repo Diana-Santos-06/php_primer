@@ -10,10 +10,10 @@
     <u1>
         <li><a href="arrey.php">Simple Array and Printouts</a></li>
         <li><a href="forloop.php">Simple For Loop</a></li>
-        
         <li><a href="whiledowhileloop.php">Simple While/Do While Loop</a></li>
         <li><a href="ifstatement.php">Simple If Statement</a></li>
         <li><a href="switchstatement.php">Simple Switch Statement</a></li>
+        <li><a href="stingmanip.php">Simple String Manipulation</a></li>
     </u1>
         
     <!--Basic HTML -->
