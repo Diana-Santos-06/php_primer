@@ -19,6 +19,12 @@
         echo 'Uppercase first letter: ' . ucfirst($name). '<br/>';
         echo 'Uppercase first letter of each word: ' . ucwords($name). '<br/>';
         echo 'Upper case: '. strtoupper($name).'<br/>';
+        echo 'Lower case: '. strtolower("I LOVE YOU"). '<br/>';
+        echo '<hr/>';
+        echo 'Repeat String: ' . str_repeat('a',10). '<br/>';
+        echo 'Repeat String: ' . strtoupper(str_repeat('a',10)). '<br/>';
+        '<br/>';
+        echo 'Get a Substring: ' . substr($name, 3, 5).'<br/>';
 
         
     ?>
