@@ -19,12 +19,23 @@
         echo 'Uppercase first letter: ' . ucfirst($name). '<br/>';
         echo 'Uppercase first letter of each word: ' . ucwords($name). '<br/>';
         echo 'Upper case: '. strtoupper($name).'<br/>';
-        echo 'Lower case: '. strtolower("I LOVE YOU"). '<br/>';
+        echo 'Lower case: '. strtolower("THIS WAS ALL UPPER CASE"). '<br/>';
         echo '<hr/>';
         echo 'Repeat String: ' . str_repeat('a',10). '<br/>';
         echo 'Repeat String: ' . strtoupper(str_repeat('a',10)). '<br/>';
         '<br/>';
         echo 'Get a Substring: ' . substr($name, 3, 5).'<br/>';
+
+        echo 'Get position of string: ' . strpos($name, 'w').'<br/>';
+        //Returns NULL
+        
+        // echo 'Get position of string:' .strpos($combine, 'z').'<br/>';
+        
+        echo 'Find Character "R": ' . strchr($name, 'R').'<br/>';
+        echo 'Find Character "r": ' . strchr($name, 'r').'<br/>';
+        echo 'Find Character "s": ' . strchr($name, 's').'<br/>';
+        echo 'Find Character "e": ' . strchr($name, 'e').'<br/>';
+
 
         
     ?>
