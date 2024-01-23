@@ -36,8 +36,18 @@
         echo 'Find Character "s": ' . strchr($name, 's').'<br/>';
         echo 'Find Character "e": ' . strchr($name, 'e').'<br/>';
 
+        
+        echo 'Find Length of String: ' . "A" . "B C D" . "E" . '<br/>';
 
         
-    ?>
+        echo 'Without Trim: '. "A" . "B C D" . "E" . '<br/>';
+        echo 'Trim spaces on both sides: '. "A" . trim(" B C D ") . "E" . '<br/>';
+        echo 'Trim spaces to the left: '. "A" . ltrim(" B C D ") . "E" . '<br/>';
+        echo 'Trim spaces to the right: '. "A" . rtrim(" B C D ") . "E" . '<br/>';
+
+        
+        echo ' Replace string with another: '. str_replace("stand", "sit", $phrase2 ) . '<br/>';
+        
+    ?>  
 </body>
 </html>
