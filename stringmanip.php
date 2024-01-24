@@ -47,7 +47,7 @@
 
         
         echo ' Replace string with another: '. str_replace("stand", "sit", $phrase2 ) . '<br/>';
-        
+            
     ?>  
 </body>
 </html>
