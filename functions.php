@@ -34,6 +34,11 @@
         $num = $num + 10;
      }
 
+     function returnProduct($num, $num2){
+        $prod = $num1 * $num2;
+        return $prod;
+     }
+
      $num = 500;
      addFunction(10, 20);
      addFunction(10, $num);
@@ -41,6 +46,10 @@
 
      changeNum($num);
      echo $num . '<br/>';
+
+     
+     $return_value = returnProduct(10, 200);
+     echo $return_value . '<br/>';
 
 
 
